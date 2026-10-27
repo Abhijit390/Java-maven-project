@@ -65,9 +65,7 @@ jobs:
             -Dsonar.token=$SONAR_TOKEN
             
       # 8. Upload WAR as artifact (optional, for later jobs)
-      - name: Upload WAR artifact
-
-      
+      - name: Upload WAR artifact      
         uses: actions/upload-artifact@v4
         with:
           name: myapp
