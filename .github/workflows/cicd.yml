@@ -74,7 +74,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
-    environment: production
+    environment: token
 
     steps:
       # 10. Download WAR artifact
